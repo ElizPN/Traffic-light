@@ -38,7 +38,9 @@ function moveCar () {
     let newPosition = parseInt(Bluecar.style.left);
     newPosition += 5;
     newPosition += "px";
-    Bluecar.style.left = newPosition;
+    Bluecar.style.left = newPosition;  
 }
 moveCar()
+
+
 
